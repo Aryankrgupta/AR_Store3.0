@@ -102,7 +102,7 @@ function Admins({ swal }) {
         <tbody>
           {adminEmail.length > 0 &&
             adminEmail.map((email) => (
-              <tr>
+              <tr key={email._id}>
                 <td>{email.email}</td>
                 <td>{new Date(email.createdAt).toLocaleString()}</td>
                 <button
