@@ -85,7 +85,7 @@ function Admins({ swal }) {
       <table className="basic">
         <thead>
           <tr>
-            <th>Admin's Google Email</th>
+            <th>Admin&apos;s Google Email</th>
             <th>Created At</th>
             <th>Action</th>
           </tr>
