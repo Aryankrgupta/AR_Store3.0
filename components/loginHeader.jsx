@@ -1,6 +1,6 @@
 import { useSession } from 'next-auth/react'
 
-export default function LoginHeader() {
+export default function loginHeader() {
   const { data: session } = useSession();
   return (
     <div className="text-blue-900 flex justify-between">
