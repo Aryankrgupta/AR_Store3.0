@@ -9,7 +9,7 @@ import { mongooseConnect } from '@/lib/mongoose';
 
 async function isAdminEmail(email) {
   mongooseConnect();
-  return true;
+  // return true;
   // const check = await Admin.findOne({email});
   // console.log(check);
   // return (await Admin.findOne({email}));
